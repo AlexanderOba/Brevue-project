@@ -25,8 +25,9 @@ const Ul = styled.ul`
     left: -1px;
     height: 92vh;
     top: 8vh;
-    background-color:  #0675c1;
+    background-color:  #fff;
     display: flex;
+    color: rgb(6,6,6);
     flex-direction: column;
     align-items: center;
     width: 50%;
@@ -40,7 +41,7 @@ const Navlist = ({ open }) => {
     <Ul open={open}>
       <li>
         {" "}
-        <NavLink to="/" className="navlinks_2">
+        <NavLink to="/#"  className="navlinks_2">
           Home
         </NavLink>
       </li>

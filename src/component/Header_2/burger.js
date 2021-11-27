@@ -9,7 +9,7 @@ const StyledBurger = styled.div`
   div {
       width: 25px;
       height: 3px;
-      background-color:  #fff;
+      background-color:  rgb(6,6,6);
       margin: 5px;
       transform-origin: 1px;
       transition: all .3s linear;
