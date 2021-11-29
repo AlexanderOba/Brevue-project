@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { NavHashLink } from "react-router-hash-link";
 import styled from "styled-components";
 
 const Ul = styled.ul`
@@ -41,9 +42,9 @@ const Navlist = ({ open }) => {
     <Ul open={open}>
       <li>
         {" "}
-        <NavLink to="/#"  className="navlinks_2">
+        <NavHashLink to="/#home" activeStyle={{ color: "#0300ca"}}  className="navlinks_2">
           Home
-        </NavLink>
+        </NavHashLink>
       </li>
       <li>
         {" "}

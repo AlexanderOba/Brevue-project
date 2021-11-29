@@ -18,6 +18,7 @@ const Home = props => {
 
   return (
     <div>
+       <div id="home"></div>
       <div>
         <Header_2
           style={{
@@ -33,9 +34,9 @@ const Home = props => {
               <h3 className="HmpgHeading_primary">
                 AWESOME TEMPLATE FOR COURIER & DELIVERY SERVICES
               </h3>
-              <a className="Hmpgsection_one--btn" href="/services">
+              <Link className="Hmpgsection_one--btn" to="/services">
                 <span >View our Services</span>
-              </a>
+              </Link>
             </Col>
           </Row>
         </Container>
